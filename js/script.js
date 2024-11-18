@@ -10,9 +10,9 @@ generare 10 indirizzi email e stamparli in pagina all'interno di una lista.
 
 // const String
 const countForLoop = 10;
-const classCol_3 = " col-lg-4";
+const classCol_3 = " col-xl-4";
 const classCol_6 = " col-md-6";
-const classCol_12 = " col-12";
+const classCol_12 = " col-sm-12";
 const padtb = " py-3";
 const LiArray = [];
 const liTextArray = [];
