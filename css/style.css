@@ -12,6 +12,12 @@ ul{
 li{
     font-size: 1.3em;
 }
+li >span{
+    background-color: rgb(124, 107, 107);
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+}
 #btnFetch{
     margin: 0 auto;
 }

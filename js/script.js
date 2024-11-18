@@ -13,6 +13,7 @@ const countForLoop = 10;
 const classCol_3 = " col-xl-4";
 const classCol_6 = " col-md-6";
 const classCol_12 = " col-sm-12";
+
 const padtb = " py-3";
 const LiArray = [];
 const liTextArray = [];
@@ -30,9 +31,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const eleLiDom = document.createElement("li");
         eleLiDom.classList.add(classCol_3.trim(), classCol_6.trim(), classCol_12.trim(), padtb.trim());
+        const eleSpanDom = document.createElement("span");
 
-        eleLiDom.innerText = `${value}`;
-
+        eleSpanDom.innerText = `${value}`;
+        eleLiDom.appendChild(eleSpanDom);
+        
         LiArray.push(eleLiDom);
 
         eleUlDom.appendChild(eleLiDom);
