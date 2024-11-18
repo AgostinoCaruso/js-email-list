@@ -1,3 +1,17 @@
 body{
     background-color: grey;
 }
+h1{
+    font-size: 3.5em;
+    text-align: center;
+    margin: 30px 0px;
+}
+ul{
+    list-style: none;
+}
+li{
+    font-size: 1.3em;
+}
+#btnFetch{
+    margin: 0 auto;
+}
